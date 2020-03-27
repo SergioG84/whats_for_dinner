@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>What's for Dinner?</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>What's for Dinner?</h1>
+      <div class="meal-container">
+        <form class="meal-container" id="submit">
+          <input type="text" id="search" placeholder="Search for meal or keyword">
+            <button class="search-btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <button class="random-btn" id="random">
+          <i class="fas fa-random"></i>
+        </button>
+      </div>
+
+      <div id="search-result"></div>
+      <div class="meals" id="meals"></div>
+      <div id="displayed-meal"></div>
+    </div>
+
+
+  <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
